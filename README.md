@@ -46,3 +46,19 @@ Then install all required packages using pip:
 ```bash
 pip install -r requirements.txt
 ```
+
+### 3. Get a Google Generative AI API Key
+
+- Visit: [https://makersuite.google.com/app/apikey](https://makersuite.google.com/app/apikey)
+- Sign in with your Google account
+- Generate your free API key and copy it
+
+---
+
+### 4. Run the Application
+
+Launch the Streamlit app with the following command:
+
+```bash
+streamlit run app.py
+```
