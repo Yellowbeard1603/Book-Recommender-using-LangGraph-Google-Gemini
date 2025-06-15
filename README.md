@@ -35,3 +35,14 @@ An interactive book recommendation system built using [LangGraph](https://github
 ```bash
 git clone https://github.com/your-username/book-recommender.git
 cd book-recommender
+```
+
+### 2. Install Dependencies
+
+Make sure you have Python 3.9 or higher installed.
+
+Then install all required packages using pip:
+
+```bash
+pip install -r requirements.txt
+```
