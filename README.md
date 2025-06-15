@@ -88,7 +88,7 @@ This project was built as part of an assignment to implement an agentic workflow
 | **Modularity and code readability**                       | ✔ Modular functions like `fetch_books`, `tool_agent`, `plan_node` are all well-scoped          | ✅           |
 | **Documentation**                                         | ✔ Full inline documentation and markdown README provided                                       | ✅           |
 | **Video explanation**                                     | ✔ [Available here](#video-demo-link)                                                           | ✅           |
-| **Hosted Solution**                                       | ✔ [Live app here](#live-app-link)                                                              | ✅           |
+| **Hosted Solution**                                       | ✔                                                                                              | ✅           |
 
 ---
 
