@@ -60,7 +60,7 @@ pip install -r requirements.txt
 Launch the Streamlit app with the following command:
 
 ```bash
-streamlit run app.py
+streamlit run app1.py
 ```
 
 When the app opens in your browser:
@@ -69,4 +69,4 @@ When the app opens in your browser:
 
   💬 Enter your book request (e.g. “Suggest the best mystery book”)
 
-    ✅ View your top recommendations instantly
+  ✅ View your top recommendations instantly
