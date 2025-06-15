@@ -62,3 +62,11 @@ Launch the Streamlit app with the following command:
 ```bash
 streamlit run app.py
 ```
+
+When the app opens in your browser:
+
+  🔐 Paste your Google API key into the input field
+
+  💬 Enter your book request (e.g. “Suggest the best mystery book”)
+
+    ✅ View your top recommendations instantly
