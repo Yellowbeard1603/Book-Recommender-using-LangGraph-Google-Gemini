@@ -77,18 +77,19 @@ When the app opens in your browser:
 
 This project was built as part of an assignment to implement an agentic workflow using LangGraph. Below is a self-evaluation of how it meets the stated requirements:
 
-| **Task Requirement**                                      | **Our Implementation**                                                                                                                 | ✅ Status    |
-|-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| **Use LangGraph**                                         | ✔ Used `StateGraph` from `langgraph.graph` with planner and executor nodes                                                             | ✅           |
-| **Use a PlanAgent to split user query into sub-tasks**    | ✔ `plan_agent(user_query)` uses Gemini model to generate a structured task plan                                                        | ✅           |
-| **Iteratively refine and solve tasks using ToolAgent**    | ✔ `tool_node` + `dynamic_tool_agent()` handle task-by-task execution with context updates                                              | ✅           |
-| **Implement feedback loops / reflection for reliability** | ⚠️ Basic iterative execution is implemented; **no advanced reflection or retry logic** present                                         | ⚠️ Partial  |
-| **Use any LLM and tools of your choice**                  | ✔ Used Google Gemini + Google Books API                                                                                                | ✅           |
-| **LangGraph integration for task & tool management**      | ✔ Full task-tool separation via planner and executor in LangGraph                                                                      | ✅           |
-| **Modularity and code readability**                       | ✔ Modular functions like `fetch_books`, `tool_agent`, `plan_node` are all well-scoped                                                  | ✅           |
-| **Documentation**                                         | ✔ Full inline documentation and markdown README provided                                                                               | ✅           |
+| **Task Requirement**                                      | **Our Implementation**                                                                                                                       | ✅ Status    |
+|-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| **Use LangGraph**                                         | ✔ Used `StateGraph` from `langgraph.graph` with planner and executor nodes                                                                   | ✅           |
+| **Use a PlanAgent to split user query into sub-tasks**    | ✔ `plan_agent(user_query)` uses Gemini model to generate a structured task plan                                                              | ✅           |
+| **Iteratively refine and solve tasks using ToolAgent**    | ✔ `tool_node` + `dynamic_tool_agent()` handle task-by-task execution with context updates                                                    | ✅           |
+| **Implement feedback loops / reflection for reliability** | ⚠️ Basic iterative execution is implemented; **no advanced reflection or retry logic** present                                               | ⚠️ Partial  |
+| **Use any LLM and tools of your choice**                  | ✔ Used Google Gemini + Google Books API                                                                                                      | ✅           |
+| **LangGraph integration for task & tool management**      | ✔ Full task-tool separation via planner and executor in LangGraph                                                                            | ✅           |
+| **Modularity and code readability**                       | ✔ Modular functions like `fetch_books`, `tool_agent`, `plan_node` are all well-scoped                                                        | ✅           |
+| **Documentation**                                         | ✔ Full inline documentation and markdown README provided                                                                                     | ✅           |
 | **Video explanation**                                     | ✔ Available here: [Part 1](https://drive.google.com/file/d/1RzLkHyNyRljF9wOUmqPgq1_APxu-9Uqt/view), [Part 2](https://drive.google.com/file/d/151PyF7SZI2qZx2f4Dli_uGofTht0Dh-R/view) | ✅           |
-| **Hosted Solution**                                       | ✔ Available via Streamlit – enter API key and query books interactively *(link if hosted: `https://your-app-url`)*                     | ✅           |
+| **Hosted Solution**                                       | ✔ Available via Streamlit – enter API key and query books interactively *(e.g., `https://your-app-url`)*                                    | ✅           |
+| **Colab Notebook**                                        | ✔ Interactive prototype available in [Google Colab](https://colab.research.google.com/drive/1Mw_C6KQZMRb1jpZC34pvmBeXs5FwkhJ8?usp=sharing)   | ✅           |
 
 ---
 
